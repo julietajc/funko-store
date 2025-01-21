@@ -1,50 +1,109 @@
-import React, { useState } from "react";
-import ListaCarrito from "../components/ListaCarrito";
-import ResumenCompra from "../components/ResumenCompra";
+import React, { useContext } from "react";
+import { CarritoContext } from "../context/CarritoContext"; // Asegúrate de importar el contexto correctamente
+import "../styles/Carrito.css";
 
 function Carrito() {
-  const [productosCarrito, setProductosCarrito] = useState([
-    {
-      id: 1,
-      nombre: "Funko Pop Spider-Man",
-      imagen: "https://via.placeholder.com/150",
-      precio: 15.0,
-      cantidad: 1,
-    },
-    {
-      id: 2,
-      nombre: "Funko Pop Harry Potter",
-      imagen: "https://via.placeholder.com/150",
-      precio: 20.0,
-      cantidad: 1,
-    },
-  ]);
+  const { carrito, eliminarDelCarrito, modificarCantidad } =
+    useContext(CarritoContext);
 
-  const eliminarProducto = (id) => {
-    setProductosCarrito(
-      productosCarrito.filter((producto) => producto.id !== id)
+  // Calcular el total de cada producto
+  const calcularTotalProducto = (producto) => {
+    return producto.precio * producto.cantidad;
+  };
+
+  // Calcular el total general sumando los totales de cada producto
+  const calcularTotalGeneral = () => {
+    return carrito.reduce(
+      (total, producto) => total + calcularTotalProducto(producto),
+      0
     );
   };
 
-  const modificarCantidad = (id, cantidad) => {
-    setProductosCarrito(
-      productosCarrito.map((producto) =>
-        producto.id === id
-          ? { ...producto, cantidad: Number(cantidad) }
-          : producto
-      )
-    );
+  // Modificar la cantidad de un producto y eliminarlo si la cantidad es 0
+  const modificarCantidadYEliminarSiCero = (id, nuevaCantidad) => {
+    if (nuevaCantidad === 0) {
+      eliminarDelCarrito(id);
+    } else {
+      modificarCantidad(id, nuevaCantidad);
+    }
   };
 
   return (
-    <main>
-      <ListaCarrito
-        productos={productosCarrito}
-        eliminarProducto={eliminarProducto}
-        modificarCantidad={modificarCantidad}
-      />
-      <ResumenCompra productos={productosCarrito} />
-    </main>
+    <div className="carrito">
+      <h2 className="carrito__titulo">Tu Carrito</h2>
+      <div className="carrito__items">
+        {carrito.length === 0 ? (
+          <p>Tu carrito está vacío.</p>
+        ) : (
+          carrito.map((producto) => {
+            // Solo mostrar productos cuya cantidad sea mayor que 0
+            if (producto.cantidad > 0) {
+              return (
+                <div key={producto.id} className="carrito__item">
+                  <img
+                    src={producto.imagen}
+                    alt={producto.nombre}
+                    className="carrito__imagen"
+                  />
+                  <div className="carrito__info">
+                    <h3>{producto.nombre}</h3>
+                    <p>Precio: ${producto.precio}</p>
+                    <p>Total: ${calcularTotalProducto(producto)}</p>
+                    <div className="carrito__acciones">
+                      <button onClick={() => eliminarDelCarrito(producto.id)}>
+                        Eliminar
+                      </button>
+                      <div className="carrito__cantidad">
+                        <button
+                          onClick={() =>
+                            modificarCantidadYEliminarSiCero(
+                              producto.id,
+                              producto.cantidad - 1
+                            )
+                          }
+                        >
+                          -
+                        </button>
+                        <input
+                          type="number"
+                          min="1"
+                          value={producto.cantidad}
+                          onChange={(e) =>
+                            modificarCantidadYEliminarSiCero(
+                              producto.id,
+                              parseInt(e.target.value)
+                            )
+                          }
+                          className="carrito__input-cantidad"
+                        />
+                        <button
+                          onClick={() =>
+                            modificarCantidadYEliminarSiCero(
+                              producto.id,
+                              producto.cantidad + 1
+                            )
+                          }
+                        >
+                          +
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              );
+            }
+            return null; // Si la cantidad es 0, no se renderiza el producto
+          })
+        )}
+      </div>
+
+      {carrito.length > 0 && (
+        <div className="carrito__total">
+          <h3>Total General: ${calcularTotalGeneral()}</h3>
+          <button className="carrito__comprar-btn">Comprar ahora</button>
+        </div>
+      )}
+    </div>
   );
 }
 

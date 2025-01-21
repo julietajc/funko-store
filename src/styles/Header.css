@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #ae321c; /* Rojo tomate fresco */
+  background: linear-gradient(90deg, #e03a1c, #ff1462); 
   color: #fff;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
 }

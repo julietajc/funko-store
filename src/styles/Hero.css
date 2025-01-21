@@ -1,7 +1,6 @@
 .hero {
   background-image: url('../assets/images/Hero.jpg');
   background-size: cover; 
-  background-color: #1a40a1; /* Azul eléctrico */
   color: #ffffff; /* Blanco */
   text-align: center;
   padding: 4rem 1rem;
@@ -25,18 +24,6 @@
   animation: zoomIn 1s ease-in-out; 
 }
 
-.hero__subtitle {
-  color:  #2e2e2e;
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
-  line-height: 1.6;
-  border: 6px solid #ff1493;
-  border-radius: 10px; 
-  padding: 0.5rem;
-  background-color: rgba(232, 225, 81, 0.724); 
-  display: inline-block;
-}
-
 .hero__button {
   background-color: #ffd000; /* Amarillo brillante */
   color: #2e2e2e; /* Gris oscuro */
@@ -49,6 +36,8 @@
   box-shadow: 0 4px 8px rgb(0, 0, 0);
   transition: transform 0.2s, box-shadow 0.2s;
   animation: heartbeat 1.5s infinite;
+  text-decoration: none;
+  display: inline-block;
   cursor: pointer;
   transition: box-shadow 0.3s ease; /* Transición suave para el efecto de sombra */
 }
