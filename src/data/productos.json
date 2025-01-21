@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "nombre": "Funko Pop! Spider-Man",
+    "categoria": "Marvel",
+    "descripcion": "Figura coleccionable de Spider-Man",
+    "precio": 15.99,
+    "imagen": "spiderman.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Funko Pop! Iron Man",
+    "categoria": "Marvel",
+    "descripcion": "Figura coleccionable de Iron Man",
+    "precio": 17.99,
+    "imagen": "ironman.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Funko Pop! Thor",
+    "categoria": "Marvel",
+    "descripcion": "Figura coleccionable de Thor",
+    "precio": 16.99,
+    "imagen": "thor.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Funko Pop! Batman",
+    "categoria": "DC",
+    "descripcion": "Figura coleccionable de Batman",
+    "precio": 14.99,
+    "imagen": "batman.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Funko Pop! Wonder Woman",
+    "categoria": "DC",
+    "descripcion": "Figura coleccionable de Wonder Woman",
+    "precio": 16.99,
+    "imagen": "wonderwoman.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Funko Pop! Joker",
+    "categoria": "DC",
+    "descripcion": "Figura coleccionable de Joker",
+    "precio": 13.99,
+    "imagen": "joker.jpg"
+  },
+  {
+    "id": 7,
+    "nombre": "Funko Pop! Darth Vader",
+    "categoria": "Star Wars",
+    "descripcion": "Figura coleccionable de Darth Vader",
+    "precio": 18.99,
+    "imagen": "darthvader.jpg"
+  },
+  {
+    "id": 8,
+    "nombre": "Funko Pop! Yoda",
+    "categoria": "Star Wars",
+    "descripcion": "Figura coleccionable de Yoda",
+    "precio": 17.49,
+    "imagen": "yoda.jpg"
+  },
+  {
+    "id": 9,
+    "nombre": "Funko Pop! R2-D2",
+    "categoria": "Star Wars",
+    "descripcion": "Figura coleccionable de R2-D2",
+    "precio": 14.99,
+    "imagen": "r2d2.jpg"
+  },
+  {
+    "id": 10,
+    "nombre": "Funko Pop! Harry Potter",
+    "categoria": "Harry Potter",
+    "descripcion": "Figura coleccionable de Harry Potter",
+    "precio": 19.99,
+    "imagen": "harrypotter.jpg"
+  },
+  {
+    "id": 11,
+    "nombre": "Funko Pop! Hermione Granger",
+    "categoria": "Harry Potter",
+    "descripcion": "Figura coleccionable de Hermione Granger",
+    "precio": 18.49,
+    "imagen": "hermione.jpg"
+  },
+  {
+    "id": 12,
+    "nombre": "Funko Pop! Ron Weasley",
+    "categoria": "Harry Potter",
+    "descripcion": "Figura coleccionable de Ron Weasley",
+    "precio": 17.99,
+    "imagen": "ron.jpg"
+  },
+  {
+    "id": 13,
+    "nombre": "Funko Pop! Doctor Strange",
+    "categoria": "Marvel",
+    "descripcion": "Figura coleccionable de Doctor Strange",
+    "precio": 16.49,
+    "imagen": "doctorstrange.jpg"
+  },
+  {
+    "id": 14,
+    "nombre": "Funko Pop! Black Panther",
+    "categoria": "Marvel",
+    "descripcion": "Figura coleccionable de Black Panther",
+    "precio": 20.99,
+    "imagen": "blackpanther.jpg"
+  },
+  {
+    "id": 15,
+    "nombre": "Funko Pop! Captain America",
+    "categoria": "Marvel",
+    "descripcion": "Figura coleccionable de Captain America",
+    "precio": 18.99,
+    "imagen": "captainamerica.jpg"
+  },
+  {
+    "id": 16,
+    "nombre": "Funko Pop! Groot",
+    "categoria": "Marvel",
+    "descripcion": "Figura coleccionable de Groot",
+    "precio": 12.99,
+    "imagen": "groot.jpg"
+  },
+  {
+    "id": 17,
+    "nombre": "Funko Pop! Superman",
+    "categoria": "DC",
+    "descripcion": "Figura coleccionable de Superman",
+    "precio": 16.49,
+    "imagen": "superman.jpg"
+  },
+  {
+    "id": 18,
+    "nombre": "Funko Pop! Flash",
+    "categoria": "DC",
+    "descripcion": "Figura coleccionable de Flash",
+    "precio": 14.49,
+    "imagen": "flash.jpg"
+  },
+  {
+    "id": 19,
+    "nombre": "Funko Pop! Green Lantern",
+    "categoria": "DC",
+    "descripcion": "Figura coleccionable de Green Lantern",
+    "precio": 17.99,
+    "imagen": "greenlantern.jpg"
+  },
+  {
+    "id": 20,
+    "nombre": "Funko Pop! The Mandalorian",
+    "categoria": "Star Wars",
+    "descripcion": "Figura coleccionable de The Mandalorian",
+    "precio": 18.99,
+    "imagen": "themandalorian.jpg"
+  }
+]

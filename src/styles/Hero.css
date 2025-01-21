@@ -1,0 +1,77 @@
+.hero {
+  background-image: url('../assets/images/Hero.jpg');
+  background-size: cover; 
+  background-color: #1a40a1; /* Azul eléctrico */
+  color: #ffffff; /* Blanco */
+  text-align: center;
+  padding: 4rem 1rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
+}
+
+.hero__content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero__title {
+  font-size: 3.5rem;
+  margin-bottom: 0.7rem;
+  background-color: rgba(17, 8, 72, 0.724); /* Color de fondo con transparencia */
+  padding: 1.5rem 1.5rem; /* Espaciado alrededor del texto */
+  border-radius: 90px; /* Bordes redondeados */
+  display: inline-block; /* Asegura que el fondo se ajuste al texto */
+  animation: zoomIn 1s ease-in-out; 
+}
+
+.hero__subtitle {
+  color:  #2e2e2e;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  border: 6px solid #ff1493;
+  border-radius: 10px; 
+  padding: 0.5rem;
+  background-color: rgba(232, 225, 81, 0.724); 
+  display: inline-block;
+}
+
+.hero__button {
+  background-color: #ffd000; /* Amarillo brillante */
+  color: #2e2e2e; /* Gris oscuro */
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgb(0, 0, 0);
+  transition: transform 0.2s, box-shadow 0.2s;
+  animation: heartbeat 1.5s infinite;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease; /* Transición suave para el efecto de sombra */
+}
+
+.hero__button:hover {
+  background-color: #d56b15;
+  box-shadow: 0 4px 8px rgb(0, 0, 0); 
+}
+
+@keyframes heartbeat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "titulo": "15% OFF personajes Disney",
+    "codigo": "DISNEY12",
+    "expiracion": "31/01/2025"
+  },
+  {
+    "id": 2,
+    "titulo": "ENVÍO GRATIS",
+    "codigo": "ENVIOFREE",
+    "expiracion": "15/02/2025"
+  },
+  {
+    "id": 3,
+    "titulo": "20% OFF en tu primera compra",
+    "codigo": "FUNKO20",
+    "expiracion": "28/02/2025"
+  }
+]

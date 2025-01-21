@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ae321c; /* Rojo tomate fresco */
+  color: #fff;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.header__logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.header__nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.header__nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.header__nav-link:hover {
+  color: #ffa07a; /* Naranja claro */
+}
+
+.header__nav-link--active {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 4px;
+}

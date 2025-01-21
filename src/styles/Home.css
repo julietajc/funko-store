@@ -1,0 +1,25 @@
+.home__ver-mas {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.home__ver-mas-btn {
+  display: inline-block;
+  background-color: #1e90ff; /* Azul eléctrico */
+  color: #ffffff; /* Blanco */
+  font-size: 1.2rem;
+  font-family: "Bungee", sans-serif; /* Tipografía primaria */
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.home__ver-mas-btn:hover {
+  background-color: #ffd700; /* Amarillo brillante */
+  transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+}
+
+.home__ver-mas-btn:active {
+  transform: scale(1); /* Restaura el tamaño original al hacer clic */
+}

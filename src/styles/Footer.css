@@ -1,0 +1,19 @@
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #2e2e2e; /* Gris oscuro */
+  color: #fff;
+}
+
+.footer__text {
+  font-size: 0.9rem;
+}
+
+.footer__link {
+  color: #ffa07a; /* Naranja claro */
+  text-decoration: none;
+}
+
+.footer__link:hover {
+  text-decoration: underline;
+}

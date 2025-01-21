@@ -1,0 +1,17 @@
+.lista-productos {
+  padding: 2rem 1rem;
+}
+
+.lista-productos__title {
+  font-size: 2rem;
+  text-align: center;
+  color: #ff1493; /* Rosa fucsia */
+  margin-bottom: 1.5rem;
+}
+
+.lista-productos__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}

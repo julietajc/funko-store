@@ -1,0 +1,55 @@
+
+.cupones-descuento {
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: #1e90ff; /* Azul eléctrico */
+  color: #ffffff;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.cupones-descuento__title {
+  font-family: "Jersey 15", serif;
+  font-size: 46px;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.cupones-descuento__carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.cupones-descuento__item {
+  background-color: #ffd700; /* Amarillo brillante */
+  color: #2e2e2e; /* Gris oscuro */
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  min-width: 200px;
+}
+
+.cupones-descuento__item h3 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.cupones-descuento__item p {
+  margin: 0.5rem 0;
+  font-family: "Rubik", serif;
+}
+
+.cupones-descuento__btn {
+  background-color: #ff1493; /* Rosa fucsia */
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s;
+}

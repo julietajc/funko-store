@@ -1,0 +1,34 @@
+.resumen-compra {
+  padding: 2rem;
+  background-color: #f8f8f8;
+  border-radius: 8px;
+  border: 1px solid #2e2e2e;
+  text-align: center;
+}
+
+.resumen-compra__titulo {
+  font-size: 1.8rem;
+  color: #ff1493; /* Rosa fucsia */
+  margin-bottom: 1rem;
+}
+
+.resumen-compra__total {
+  font-size: 1.5rem;
+  color: #1e90ff;
+  margin-bottom: 1rem;
+}
+
+.resumen-compra__boton {
+  background-color: #ffd700; /* Amarillo brillante */
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  color: #2e2e2e;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.resumen-compra__boton:hover {
+  background-color: #ff1493; /* Rosa fucsia */
+  color: #ffffff;
+}
