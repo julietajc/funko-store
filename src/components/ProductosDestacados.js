@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/ProductosDestacados.css";
-import productosData from "../data/productos.json";
+import productosData from "../assets/data/productos.json";
 
 function ProductosDestacados() {
   const productos = productosData.slice(0, 4);

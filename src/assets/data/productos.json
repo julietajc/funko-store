@@ -3,132 +3,126 @@
     "id": 1,
     "nombre": "Funko Pop! Amy",
     "precio": 357,
-    "imagen": "../assets/images/amy.png"
+    "imagen": "images/amy.png"
   },
   {
     "id": 2,
     "nombre": "Funko Pop! Britney Spears",
     "precio": 489,
-    "imagen": "../assets/images/Britney-spears.png"
+    "imagen": "images/Britney-spears.png"
   },
   {
     "id": 3,
     "nombre": "Funko Pop! Bugs Bunny",
     "precio": 406,
-    "imagen": "../assets/images/bugs-bunny.png"
+    "imagen": "images/bugs-bunny.png"
   },
   {
     "id": 4,
     "nombre": "Funko Pop! Deku",
     "precio": 527,
-    "imagen": "../assets/images/deku.png"
+    "imagen": "images/deku.png"
   },
   {
     "id": 5,
     "nombre": "Funko Pop! Dr. Strange",
     "precio": 375,
-    "imagen": "../assets/images/dr-strange.png"
+    "imagen": "images/dr-strange.png"
   },
   {
     "id": 6,
     "nombre": "Funko Pop! Harley Quinn",
     "precio": 609,
-    "imagen": "../assets/images/harley-queen.png"
-  },
-  {
-    "id": 7,
-    "nombre": "Funko Pop! Hero",
-    "precio": 552,
-    "imagen": "../assets/images/Hero.jpg"
+    "imagen": "images/harley-queen.png"
   },
   {
     "id": 8,
     "nombre": "Funko Pop! Isabel Encanto",
     "precio": 440,
-    "imagen": "../assets/images/isabel-encanto.png"
+    "imagen": "images/isabel-encanto.png"
   },
   {
     "id": 9,
     "nombre": "Funko Pop! Jack Skellington",
     "precio": 379,
-    "imagen": "../assets/images/Jack-skellington.png"
+    "imagen": "images/Jack-skellington.png"
   },
   {
     "id": 10,
     "nombre": "Funko Pop! Kakashi",
     "precio": 465,
-    "imagen": "../assets/images/kakashi.png"
+    "imagen": "images/kakashi.png"
   },
   {
     "id": 11,
     "nombre": "Funko Pop! Korra",
     "precio": 501,
-    "imagen": "../assets/images/korra.png"
+    "imagen": "images/korra.png"
   },
   {
     "id": 12,
     "nombre": "Funko Pop! Leonidas",
     "precio": 534,
-    "imagen": "../assets/images/leonidas.png"
+    "imagen": "images/leonidas.png"
   },
   {
     "id": 13,
     "nombre": "Funko Pop! Luffy",
     "precio": 428,
-    "imagen": "../assets/images/Luffy.png"
+    "imagen": "images/Luffy.png"
   },
   {
     "id": 14,
     "nombre": "Funko Pop! Mickey Mouse",
     "precio": 318,
-    "imagen": "../assets/images/mickey-mouse.png"
+    "imagen": "images/mickey-mouse.png"
   },
   {
     "id": 15,
     "nombre": "Funko Pop! Obi",
     "precio": 389,
-    "imagen": "../assets/images/obi.png"
+    "imagen": "images/obi.png"
   },
   {
     "id": 16,
     "nombre": "Funko Pop! Rick Rick Morty",
     "precio": 412,
-    "imagen": "../assets/images/rick-rick-morty.png"
+    "imagen": "images/rick-rick-morty.png"
   },
   {
     "id": 17,
     "nombre": "Funko Pop! Sasuke",
     "precio": 562,
-    "imagen": "../assets/images/sasuke.png"
+    "imagen": "images/sasuke.png"
   },
   {
     "id": 18,
     "nombre": "Funko Pop! Spiderman",
     "precio": 572,
-    "imagen": "../assets/images/spiderman.png"
+    "imagen": "images/spiderman.png"
   },
   {
     "id": 19,
     "nombre": "Funko Pop! Spyro",
     "precio": 423,
-    "imagen": "../assets/images/spyro.png"
+    "imagen": "images/spyro.png"
   },
   {
     "id": 20,
     "nombre": "Funko Pop! Van Helsing",
     "precio": 474,
-    "imagen": "../assets/images/van-helsing.png"
+    "imagen": "images/van-helsing.png"
   },
   {
     "id": 21,
     "nombre": "Funko Pop! Voldemort",
     "precio": 453,
-    "imagen": "../assets/images/voldemort.png"
+    "imagen": "images/voldemort.png"
   },
   {
     "id": 22,
     "nombre": "Funko Pop! Woody",
     "precio": 526,
-    "imagen": "../assets/images/woody.png"
+    "imagen": "images/woody.png"
   }
 ]

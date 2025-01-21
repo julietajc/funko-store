@@ -1,5 +1,5 @@
 .hero {
-  background-image: url('../assets/images/Hero.jpg');
+  background-image: url('../../public/images/Hero.jpg');
   background-size: cover; 
   color: #ffffff; /* Blanco */
   text-align: center;

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import TarjetaProducto from "./TarjetaProducto";
 import Buscador from "./Buscador";
 import "../styles/ListaDeProductos.css";
-import productosData from "../data/productos.json";
+import productosData from "../assets/data/productos.json";
 import useFiltrarProductos from "../hooks/useFiltrarProductos";
 
 function ListaDeProductos() {
